@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Smart Space</title>
   </head>
   <body>
@@ -23,7 +27,8 @@
           <a
             href="#"
             class="header__logo"
-          >SmartSpace</a>
+            >SmartSpace</a
+          >
           <nav class="header__menu menu">
             <ul class="menu__list">
               <li class="menu__item">
@@ -72,8 +77,121 @@
           </nav>
         </div>
       </header>
-      <main class="page">page</main>
+      <main class="page">
+        <section class="page__main main-block">
+          <div class="main-block__container">
+            <div class="main-block__body body-main-block">
+              <div class="body-main-block__content content-main-block">
+                <div class="content-main-block__body">
+                  <div class="content-main-block__sub-title">
+                    RESIDENTIAL & OFFICE SPACES
+                  </div>
+                  <h1 class="content-main-block__title">
+                    Smart Living Style for Smart People
+                  </h1>
+                  <div class="content-main-block__text">
+                    Much did had call new drew that kept. Limits expect wonder
+                    law she. Now has you views woman noisy match money rooms.
+                  </div>
+                </div>
+                <form
+                  action="#"
+                  class="content-main-block__form form-main-block"
+                >
+                  <input
+                    type="text"
+                    class="content-main-block__input"
+                    placeholder="Enter Zipcode to search properties"
+                  />
+                  <button
+                    type="submit"
+                    class="content-main-block__btn"
+                  >
+                    Search Now!
+                  </button>
+                </form>
+              </div>
+              <!-- Slider main content -->
+              <div class="body-main-block__slider slider-main-block swiper">
+                <!-- Additional required wrapper -->
+                <div class="slider-main-block__wrapper swiper-wrapper">
+                  <div class="slider-main-block__slide swiper-slide">
+                    <img
+                      src="img/main/slider/01.jpg"
+                      alt="Slider Image"
+                    />
+                  </div>
+                  <div class="slider-main-block__slide swiper-slide">
+                    <img
+                      src="img/main/slider/02.jpg"
+                      alt="Slider Image"
+                    />
+                  </div>
+                  <div class="slider-main-block__slide swiper-slide">
+                    <img
+                      src="img/main/slider/03.jpg"
+                      alt="Slider Image"
+                    />
+                  </div>
+                  <div class="slider-main-block__slide swiper-slide">
+                    <img
+                      src="img/main/slider/04.jpg"
+                      alt="Slider Image"
+                    />
+                  </div>
+                </div>
+                <!--Navigation buttons-->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+            <div class="main-block__partners partners-main-block">
+              <div class="partners-main-block__label">Our Amazing Partners</div>
+              <div class="partners-main-block__items">
+                <div class="partners-main-block__item">
+                  <img
+                    src="img/Partners/airbnb.svg"
+                    alt="Partner Airbnb"
+                  />
+                </div>
+                <div class="partners-main-block__item">
+                  <img
+                    src="img/Partners/buzz.svg"
+                    alt="Partner Buzz"
+                  />
+                </div>
+                <div class="partners-main-block__item">
+                  <img
+                    src="img/Partners/chase.svg"
+                    alt="Partner Chase"
+                  />
+                </div>
+                <div class="partners-main-block__item">
+                  <img
+                    src="img/Partners/gucc.svg"
+                    alt="Partner Gucc"
+                  />
+                </div>
+                <div class="partners-main-block__item">
+                  <img
+                    src="img/Partners/uber.svg"
+                    alt="Partner Uber"
+                  />
+                </div>
+                <div class="partners-main-block__item">
+                  <img
+                    src="img/Partners/microsoft.svg"
+                    alt="Partner Microsoft"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
       <footer class="footer">footer</footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
